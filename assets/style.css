@@ -2,10 +2,15 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
 * {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 	font-family: 'Inter';
 	font-style: normal;
 }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -13,8 +18,8 @@ body {
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	padding-inline: 100px;
-	padding-block: 30px;
+	padding-inline: 6em;
+	padding-block: 1.875em;
 	align-items: center;
 }
 
@@ -45,8 +50,8 @@ body {
 #about {
 	display: flex;
 	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding-inline: 6.25em;
+	padding-block: 6.25em;
 	position: relative;
 }
 
@@ -76,7 +81,7 @@ body {
 }
 .about-me__title {
 	margin-top: 1em;
-	margin-bottom: 60px;
+	margin-bottom: 3.75em;
 	font-size: 30px;
 }
 .about-me__introduction {
@@ -113,12 +118,13 @@ body {
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
 .item-column::after{
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -126,15 +132,19 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #fff;
+    border: solid 1px #ccc;
 }
+
 
 .quote {
 	font-family: 'Spectral';
@@ -151,7 +161,7 @@ body {
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -195,8 +205,8 @@ body {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
-	padding-inline: 100px;
-	padding-block: 100px;
+	padding-inline: 6.25em;
+	padding-block: 6.25em;
 }
 
 #contact .container {
@@ -228,7 +238,7 @@ form input {
 	background-color: transparent;
 	border: solid 1px;
 	height: 2.5em;
-	margin-bottom: 20px;
+	margin-bottom: 1.25em;
 }
 
 form textarea {
@@ -238,11 +248,13 @@ form textarea {
 	height: 5em;
 	line-height: 2.5em;
 	font-size: 1.2em;
-	margin-bottom: 20px;
+	margin-bottom: 1.25em;
 }
 input[type="submit"] {
 	background-color: #BEB45A;
-	padding: .5em 1em
+	padding: .5em 1em;
+	border: none;
+	color: #fff;
 }
 
 @media all and (max-width: 1180px) {

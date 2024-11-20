@@ -8,6 +8,7 @@
         $.fn.mauGallery.methods.createLightBox(
           $(this),
           options.lightboxId,
+          options.lightboxId,
           options.navigation
         );
       }
