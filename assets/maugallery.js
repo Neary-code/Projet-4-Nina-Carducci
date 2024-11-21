@@ -1,6 +1,6 @@
 (function($) {
   $.fn.mauGallery = function(options) {
-    var options = $.extend($.fn.mauGallery.defaults, options);
+    options = $.extend({}, $.fn.mauGallery.defaults, options);
     var tagsCollection = [];
     return this.each(function() {
       $.fn.mauGallery.methods.createRowWrapper($(this));
