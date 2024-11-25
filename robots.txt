@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /file:///C:/Users/UTILISATEUR/Documents/Openclassroom/projet4_casolari_neary/Nina-Carducci-Dev/index.html
-Allow: /file:///C:/Users/UTILISATEUR/Documents/Openclassroom/projet4_casolari_neary/Nina-Carducci-Dev/index.html
-Sitemap: nina-carducci.github.io
+Disallow:
+
+Sitemap: C:\Users\UTILISATEUR\Documents\Openclassroom\projet4_casolari_neary\Nina-Carducci-Dev/sitemap.xml
