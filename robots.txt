@@ -1,4 +1,4 @@
-User-agent: *
-Disallow:
+user-agent: *
+disallow:
 
 Sitemap: C:\Users\UTILISATEUR\Documents\Openclassroom\projet4_casolari_neary\Nina-Carducci-Dev/sitemap.xml
