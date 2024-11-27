@@ -61,9 +61,6 @@ body {
 	margin: 0 20px;
 	z-index: 0;
 }
-.picture img {
-	width:
-}
 #about-me {
 	flex: 2
 }
@@ -91,7 +88,6 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #807732;
-	border-radius:0 ;
 }
 .nav-link.active-tag {
 	background-color: #807732;
@@ -189,7 +185,7 @@ body {
 	display: flex;
 }
 .picture.right::before {
-	content: ' ';
+	content: '';
 	background-color: #807732;
 	width: 374px;
 	height: 329px;
