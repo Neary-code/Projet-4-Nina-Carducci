@@ -96,7 +96,6 @@ body {
 .nav-link.active-tag {
 	background-color: #807732;
 	color: white;
-	border-radius: 5px;
 	transition: background-color 0.3s;
 }
 .nav-pills .nav-link {
