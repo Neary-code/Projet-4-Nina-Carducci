@@ -116,6 +116,14 @@ body {
 	border-radius:0 ;
 }
 
+.nav-link.active-tag {
+	background-color: #807732;
+	color: white; /* Optionnel : pour améliorer la lisibilité */
+	border-radius: 5px; /* Optionnel : pour des coins arrondis */
+	transition: background-color 0.3s; /* Optionnel : pour un effet plus fluide */
+}
+
+
 .nav-pills .nav-link {
 	color: #000
 }
