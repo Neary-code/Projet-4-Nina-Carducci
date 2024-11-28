@@ -81,6 +81,22 @@ body {
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  color: white; /* Couleur du texte */
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond du bouton */
+  border: none; /* Supprime les bordures */
+  padding: 10px; /* Optionnel : espace autour de l’icône */
+  border-radius: 5px; /* Coins légèrement arrondis */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Couleur de survol */
+  color: black; /* Couleur du texte au survol */
+}
+
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
