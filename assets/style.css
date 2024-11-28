@@ -70,30 +70,31 @@ body {
 	height: auto;
 	object-fit: cover;
 }
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	background-color: 595959;
 }
-
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
 	background-color: rgba(255, 255, 255, 0.8);
 }
-
 .carousel-control-prev,
 .carousel-control-next {
-  color: white; /* Couleur du texte */
-  background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond du bouton */
-  border: none; /* Supprime les bordures */
-  padding: 10px; /* Optionnel : espace autour de l’icône */
-  border-radius: 5px; /* Coins légèrement arrondis */
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
 }
-
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: rgba(255, 255, 255, 0.8); /* Couleur de survol */
-  color: black; /* Couleur du texte au survol */
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+}
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+	outline: 2px solid yellow;
+	outline-offset: 2px;
 }
 
 
