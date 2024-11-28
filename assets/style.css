@@ -70,6 +70,17 @@ body {
 	height: auto;
 	object-fit: cover;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: 595959;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
